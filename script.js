@@ -1,17 +1,3 @@
-// const saveBtn = document.getElementById("save-btn");
-
-// saveBtn.onclick = saveName;
-
-// const saveName = () => {
-//   const name = document.getElementById("name");
-//   const nameValue = name.value;
-//   const savedName = document.getElementById("saved-name");
-//   if (nameValue !== "") {
-//     localStorage.setItem("userName", nameValue);
-//     savedName.textContent = nameValue;
-//   }
-// };
-
 window.addEventListener("DOMContentLoaded", () => {
   const saveBtn = document.getElementById("save-btn");
   const removeBtn = document.getElementById("remove-btn");
